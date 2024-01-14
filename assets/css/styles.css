@@ -299,8 +299,16 @@ body{
     text-transform: uppercase;
 }
 
-.footer .footer-social .form-control,
-.footer .footer-social .form-control:focus,
-.footer .footer-social .form-control:hover {
+.footer-social .form-control,
+.footer-social .form-control:focus,
+.footer-social .form-control:hover {
+    background-color: transparent !important;
+    border-color: hsla(0,0%,100%,1) !important;
+    box-shadow: none !important;
+    color: hsla(0,0%,100%,1) !important;
+}
+
+.footer-social .input-group-text {
+    color: hsla(0,0%,100%,1) !important;
     background-color: transparent !important;
 }
