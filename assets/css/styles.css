@@ -335,10 +335,35 @@ body{
     background-color: transparent !important;
     border-color: hsla(0,0%,100%,1) !important;
     box-shadow: none !important;
-    color: hsla(0,0%,100%,1) !important;
+    border-radius: 0%;
+    width: 100%;
+    min-height: 20px;
+    border: 1px solid #eee;
+    background-image: url(https://assets.squarespace.com/universal/images-v6/icons/icon-searchqueries-20-light.png) !important;
+    color: #f7f7f7;
+    border: 1px solid #eee;
+    opacity: .7;
+    transition: opacity .2s ease-out;
+    transition: background-image .2s ease-out;
+    padding: 12px 12px 12px 45px;
+    background: no-repeat 15px 50%;
+    width: 100%;
+    min-height: 20px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.footer-social .form-control:focus{
+    opacity: 1;
 }
 
 .footer-social .input-group-text {
     color: hsla(0,0%,100%,1) !important;
     background-color: transparent !important;
+    border-radius: 0%;
+}
+
+/* placeholder color */
+.footer-social .form-control::-webkit-input-placeholder {
+    color: #f7f7f7 !important;
 }
