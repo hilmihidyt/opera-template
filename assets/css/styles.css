@@ -143,8 +143,37 @@ body{
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
+  background-color: #e1dfd9;
+  color: hsla(25.71,8.43%,16.27%,1);
 }
 
+#footer .footer-top span{
+    font-family: 'Adobe Garamond Pro Regular';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    font-size: calc(1.2 * 1rem);
+}
+
+#footer .footer-top .subscribe-btn{
+    font-size: calc(1 * 1rem);
+    padding: .7em 1.7em;
+    font-family: 'ProximaNova Semibold';
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    background-color: hsla(25.71,8.43%,16.27%,1);
+    color: hsla(0,0%,100%,1);
+    text-decoration: none;
+    border-radius: .4rem;
+}
+
+#footer .footer-top .subscribe-btn:hover{
+    opacity: .8;
+}
 
 #footer .office {
     font-size: calc(1.2 * 1rem);

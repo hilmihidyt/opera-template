@@ -12,12 +12,16 @@
     <body>
         <nav class="header navbar navbar-expand-lg bg-body-tertiary" id="navbar">
             <div class="container-fluid">
+                <!-- to show the logo on the mobile view -->
                 <a class="navbar-brand d-block d-lg-none d-xl-none" href="#">
                     <img src="assets/img/calgary_opera_logo-black-transparent-400x75.png" height="30" width="auto" alt="">
                 </a>
+                <!-- end logo on the mobile view -->
+                <!-- to show humburger icon on the mobile view -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
+                <!-- end humburger icon on the mobile view -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -33,11 +37,13 @@
                             <a class="nav-link" href="#">About</a>
                         </li>
                     </ul>
+                    <!-- to show the logo on the desktop view -->
                     <div class="header-title-logo d-none d-md-block d-lg-block">
                         <a href="">
                         <img src="assets/img/calgary_opera_logo-black-transparent-400x75.png" alt="">
                         </a>
                     </div>
+                    <!-- end logo on the desktop view -->
                     <div class="ms-auto d-flex">
                         <div class="d-flex align-items-center text-center">
                             <a href="" class="icon pt-2">
@@ -125,67 +131,80 @@
         <footer id="footer">
             <div class="footer-top">
                 <div class="container">
-                    <div class="row footer-top-link pb-5">
-                        <div class="col-md-12">
-                            <div class="text-center pb-3">
-                                <a href="" class="me-2"> WELLNESS POLICY</a>
-                                <a href="" class="me-2"> PRIVACY</a>
-                                <a href="" class="me-2"> TERMS AND CONDITIONS</a>
-                                <a href="" class="me-2"> TICKET POLICY</a>
-                                <a href="" class="me-2"> RENTALS</a>
-                                <a href="" class="me-2">FINANCIAL STATEMENTS</a>
-                                <a href="">COMPANY LOGIN</a>
-                            </div>
-                            <div class="text-center">
-                                <span>CALGARY OPERA, 1315 7 STREET SW, CALGARY, AB  403-262-7286  INFO@CALGARYOPERA.COM</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-md-4 office">
-                            <p>
-                                Box Office: 403-262-7286<br>
-                                Monday – Friday: 9 am – 5 pm<br>
-                                Saturday, Sunday & Statutory Holidays: Closed
-                            </p>
-                            <p>
-                                <strong>
-                                CHARITABLE NO. 11882 3830 RR 0001
-                                <br>
-                                GST NO. 11882 3830 RT 0001
-                                <br>
-                                COPYRIGHT © 2023 CALGARY OPERA
-                                </strong>
-                            </p>
-                        </div>
-                        <div class="col-md-4 footer-social">
-                            <div class="input-group flex-nowrap">
-                                <span class="input-group-text" id="search"><i class="bi bi-search"></i></span>
-                                <input type="text" class="form-control" placeholder="search" aria-label="search" aria-describedby="search">
-                            </div>
-                            <div class="social-links text-center text-md-right pt-3">
-                                <a href="" class="icon">
-                                <i class="bi bi-facebook"></i>
-                                </a>
-                                <a href="" class="icon">
-                                <i class="bi bi-instagram"></i>
-                                </a>
-                                <a href="" class="icon">
-                                <i class="bi bi-twitter"></i>
-                                </a>
-                                <a href="" class="icon">
-                                <i class="bi bi-linkedin"></i>
-                                </a>
-                                <a href="" class="icon">
-                                <i class="bi bi-tiktok"></i>
-                                </a>
-                                <a href="" class="icon">
-                                <i class="bi bi-vimeo"></i>
-                                </a>
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <span>Sign up to receive updates and special offers from Calgary Opera</span>
+                            <div class="py-4">
+                                <!--change the link here-->
+                                <a href="http://" target="_blank" rel="noopener noreferrer" class="subscribe-btn">SUBSCRIBE TO OUR NEWSLETTER</a>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="container py-4">
+                <div class="row footer-top-link pb-5">
+                    <div class="col-md-12">
+                        <div class="text-center pb-3">
+                            <a href="" class="me-2"> WELLNESS POLICY</a>
+                            <a href="" class="me-2"> PRIVACY</a>
+                            <a href="" class="me-2"> TERMS AND CONDITIONS</a>
+                            <a href="" class="me-2"> TICKET POLICY</a>
+                            <a href="" class="me-2"> RENTALS</a>
+                            <a href="" class="me-2">FINANCIAL STATEMENTS</a>
+                            <a href="">COMPANY LOGIN</a>
+                        </div>
+                        <div class="text-center">
+                            <span>CALGARY OPERA, 1315 7 STREET SW, CALGARY, AB  403-262-7286  INFO@CALGARYOPERA.COM</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <!--break the row here-->
+                    <div class="col-md-4 office">
+                        <p>
+                            Box Office: 403-262-7286<br>
+                            Monday – Friday: 9 am – 5 pm<br>
+                            Saturday, Sunday & Statutory Holidays: Closed
+                        </p>
+                        <p>
+                            <strong>
+                            CHARITABLE NO. 11882 3830 RR 0001
+                            <br>
+                            GST NO. 11882 3830 RT 0001
+                            <br>
+                            COPYRIGHT © 2023 CALGARY OPERA
+                            </strong>
+                        </p>
+                    </div>
+                    <div class="col-md-4 footer-social">
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="search"><i class="bi bi-search"></i></span>
+                            <input type="text" class="form-control" placeholder="search" aria-label="search" aria-describedby="search">
+                        </div>
+                        <!--you can add the social media icons here-->
+                        <div class="social-links text-center text-md-right pt-3">
+                            <a href="" class="icon">
+                            <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="" class="icon">
+                            <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="" class="icon">
+                            <i class="bi bi-twitter"></i>
+                            </a>
+                            <a href="" class="icon">
+                            <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="" class="icon">
+                            <i class="bi bi-tiktok"></i>
+                            </a>
+                            <a href="" class="icon">
+                            <i class="bi bi-vimeo"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>    
             </div>
         </footer>
         <!-- End Footer -->
