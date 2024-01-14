@@ -261,6 +261,17 @@
             hide_on_scroll({
                 nav_id : 'navbar'
             });
+
+            //when hover on the nav item, the dropdown menu will show up
+            const dropdownMenu = document.querySelectorAll('.dropdown');
+            dropdownMenu.forEach(item => {
+                item.addEventListener('mouseover', function(){
+                    this.querySelector('.dropdown-menu').classList.add('show');
+                });
+                item.addEventListener('mouseout', function(){
+                    this.querySelector('.dropdown-menu').classList.remove('show');
+                });
+            });
         </script>
     </body>
 </html>
