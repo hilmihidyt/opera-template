@@ -71,6 +71,10 @@
 
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
 
+body{
+    background-color: hsla(0,0%,100%,1);
+}
+
 .header{
     position: relative;
     z-index: 2;
@@ -129,4 +133,174 @@
     width: auto;
     max-width: 100%;
     max-height: 50px;
+}
+
+#footer {
+  color: hsla(0,0%,100%,1);
+  font-size: 14px;
+  background: #2d2926;
+}
+
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+}
+
+
+#footer .office {
+    font-size: calc(1.2 * 1rem);
+    line-height: 1.6em;
+    margin-bottom: 0;
+    font-family: 'Adobe Garamond Pro Regular';
+    font-style: normal;
+    font-weight: 400;
+    color: hsla(0,0%,100%,1);
+    line-height: 1.6em;
+    letter-spacing: -.01em;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: hsla(0,0%,100%,1);
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: hsla(0,0%,100%,1);
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  text-decoration: none;
+  color: hsla(0,0%,100%,1);
+}
+
+#footer .footer-newsletter {
+  font-size: 15px;
+}
+
+#footer .footer-newsletter h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444444;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4px;
+  text-align: left;
+  border: 1px solid #b6daf2;
+}
+
+#footer .footer-newsletter form input[type=text] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+#footer .footer-newsletter form input[type=submit] {
+  position: absolute;
+  top: 0;
+  right: -2px;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px 2px 20px;
+  background: #3498db;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#footer .footer-newsletter form input[type=submit]:hover {
+  background: #57aae1;
+}
+
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  color: hsla(0,0%,100%,1);
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-top-link a{
+    color: hsla(0,0%,100%,1);
+    text-decoration: inherit;
+    font-size: calc(1.1 * 1rem);
+    line-height: calc(1.2em * (1 + (1 - 1.1)/25));
+    font-family: 'ProximaNova Semibold';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2em;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.footer-top-link span{
+    color: hsla(45,11.76%,86.67%,1);
+    text-decoration: inherit;
+    font-size: calc(1.1 * 1rem);
+    line-height: calc(1.2em * (1 + (1 - 1.1)/25));
+    font-family: 'ProximaNova Bold';
+    font-style: normal;
+    line-height: 1.2em;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+}
+
+.footer .footer-social .form-control,
+.footer .footer-social .form-control:focus,
+.footer .footer-social .form-control:hover {
+    background-color: transparent !important;
 }
