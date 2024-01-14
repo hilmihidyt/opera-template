@@ -175,7 +175,8 @@ body{
     opacity: .8;
 }
 
-#footer .office {
+#footer .office,
+#footer .office a {
     font-size: calc(1.2 * 1rem);
     line-height: 1.6em;
     margin-bottom: 0;
